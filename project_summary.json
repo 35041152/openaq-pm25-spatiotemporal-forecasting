@@ -1,0 +1,13 @@
+{
+  "project_name": "OpenAQ Spatio-Temporal Air Quality Prediction",
+  "dataset_source": "OpenAQ through Kaggle BigQuery public dataset",
+  "bigquery_table": "bigquery-public-data.openaq.global_air_quality",
+  "urec_scope": "Secondary environmental sensor data only; no human participants or primary data collection.",
+  "raw_rows": 500000,
+  "clean_rows": 496886,
+  "pm25_rows": 122321,
+  "model_ready_rows": 90000,
+  "best_validation_model": "Random Forest",
+  "best_test_model": "Hist Gradient Boosting",
+  "generated_at": "2026-08-22T06:15:47.462513"
+}
